@@ -135,6 +135,7 @@
     <None Include="VidzyModel.edmx.diagram">
       <DependentUpon>VidzyModel.edmx</DependentUpon>
     </None>
+    <None Include="_Extras\Section 3 Exercises.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PlutoModel.Context.tt">
@@ -157,6 +158,7 @@
       <DependentUpon>VidzyModel.edmx</DependentUpon>
       <LastGenOutput>VidzyModel.cs</LastGenOutput>
     </Content>
+    <Content Include="_Extras\Vidzy.sql" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
