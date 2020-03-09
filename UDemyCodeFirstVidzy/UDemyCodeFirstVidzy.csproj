@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202003091800260_AddClassificationEnumToVideoTable.Designer.cs">
       <DependentUpon>202003091800260_AddClassificationEnumToVideoTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.cs" />
+    <Compile Include="Migrations\202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.Designer.cs">
+      <DependentUpon>202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003091800260_AddClassificationEnumToVideoTable.resx">
       <DependentUpon>202003091800260_AddClassificationEnumToVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.resx">
+      <DependentUpon>202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

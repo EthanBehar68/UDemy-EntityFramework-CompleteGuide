@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DemoData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI", "DemoFluentAPI\FluentAPI.csproj", "{0C52C418-BEC8-4C37-9C5D-574F3D901086}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheets", "{0C8264A8-7765-4F25-AACF-D6E19E4EE1D7}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Umma\Downloads\Data Annotations Cheat Sheet.pdf = C:\Users\Umma\Downloads\Data Annotations Cheat Sheet.pdf
+		C:\Users\Umma\Downloads\Fluent API Cheat Sheet.pdf = C:\Users\Umma\Downloads\Fluent API Cheat Sheet.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
