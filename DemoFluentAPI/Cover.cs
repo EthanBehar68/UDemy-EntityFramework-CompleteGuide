@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace FluentAPI
 {
-    class Program
+    public class Cover
     {
-        static void Main(string[] args)
-        {
-        }
+        public int Id { get; set; }
+
+        public Course Course { get; set; }
     }
 }
