@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace UDemyCodeFirstVidzy.EntityConfiguration
 {
-    class GenreConfiguration : EntityTypeConfiguration<Genre>
+    public class TagConfiguration : EntityTypeConfiguration<Tag>
     {
-        public GenreConfiguration()
+        public TagConfiguration()
         {
             // Convention for organization (Alphabetical)
 
@@ -18,7 +18,7 @@ namespace UDemyCodeFirstVidzy.EntityConfiguration
             // Primary Key overrides (Alphabetical)
 
             // Property Configurations (Alphabetical)
-            Property(g => g.Name)
+            Property(t => t.Name)
             .IsRequired()
             .HasMaxLength(255);
 

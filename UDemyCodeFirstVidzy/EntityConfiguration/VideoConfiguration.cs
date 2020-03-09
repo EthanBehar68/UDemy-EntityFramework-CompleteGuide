@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace UDemyCodeFirstVidzy.Configuration
+namespace UDemyCodeFirstVidzy.EntityConfiguration
 {
     public class VideoConfiguration : EntityTypeConfiguration<Video>
     {
@@ -23,6 +23,14 @@ namespace UDemyCodeFirstVidzy.Configuration
             .WillCascadeOnDelete(false);
 
             // Relationship Configurations (Alphabetical)
+            HasMany(v => v.Tags)
+            .WithMany(t => t.Videos)
+            .Map(m =>
+            {
+                m.ToTable("VideoTags");
+                m.MapLeftKey("VideoId");
+                m.MapRightKey("TagId");
+            });
         }
     }
 }

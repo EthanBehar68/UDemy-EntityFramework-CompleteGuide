@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UDemyCodeFirstVidzy.Configuration;
+﻿using System.Data.Entity;
+using UDemyCodeFirstVidzy.EntityConfiguration;
 
 namespace UDemyCodeFirstVidzy
 {
@@ -23,6 +18,9 @@ namespace UDemyCodeFirstVidzy
         {
             modelBuilder.Configurations.Add(new VideoConfiguration());
             modelBuilder.Configurations.Add(new GenreConfiguration());
+            modelBuilder.Configurations.Add(new TagConfiguration());
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

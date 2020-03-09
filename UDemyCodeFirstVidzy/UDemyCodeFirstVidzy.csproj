@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityConfiguration\GenreConfiguration.cs" />
+    <Compile Include="EntityConfiguration\TagConfiguration.cs" />
     <Compile Include="EntityConfiguration\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\202003091727216_AddVideoAndGenreTables.cs" />
@@ -73,9 +74,14 @@
     <Compile Include="Migrations\202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.Designer.cs">
       <DependentUpon>202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003092138006_AddTags.cs" />
+    <Compile Include="Migrations\202003092138006_AddTags.Designer.cs">
+      <DependentUpon>202003092138006_AddTags.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
     <Compile Include="Video.cs" />
     <Compile Include="VidzyDbContext.cs" />
   </ItemGroup>
@@ -83,6 +89,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="_Extras\Section 4 Exercises.pdf" />
+    <None Include="_Extras\Section 5 Exercises.pdf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003091727216_AddVideoAndGenreTables.resx">
@@ -99,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.resx">
       <DependentUpon>202003092103060_VideoAndGenreTableNameRequiredRemoveUnderscoreFromGenre_Id.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003092138006_AddTags.resx">
+      <DependentUpon>202003092138006_AddTags.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
