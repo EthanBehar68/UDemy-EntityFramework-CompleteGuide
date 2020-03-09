@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyCodeFirstExistingDatab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyCodeFirstVidzy", "UDemyCodeFirstVidzy\UDemyCodeFirstVidzy.csproj", "{8A5AB87E-8C74-4B5A-8A74-2EACF8DF05C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DemoDataAnnotations\DataAnnotations.csproj", "{415B010B-3387-41C8-8649-98E423189105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8A5AB87E-8C74-4B5A-8A74-2EACF8DF05C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5AB87E-8C74-4B5A-8A74-2EACF8DF05C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5AB87E-8C74-4B5A-8A74-2EACF8DF05C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415B010B-3387-41C8-8649-98E423189105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415B010B-3387-41C8-8649-98E423189105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415B010B-3387-41C8-8649-98E423189105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415B010B-3387-41C8-8649-98E423189105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
