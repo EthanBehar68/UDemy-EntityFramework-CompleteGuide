@@ -63,6 +63,10 @@
     <Compile Include="Migrations\202003091757020_AlterGenresColumnInVideoTableToGenreColumn.Designer.cs">
       <DependentUpon>202003091757020_AlterGenresColumnInVideoTableToGenreColumn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003091800260_AddClassificationEnumToVideoTable.cs" />
+    <Compile Include="Migrations\202003091800260_AddClassificationEnumToVideoTable.Designer.cs">
+      <DependentUpon>202003091800260_AddClassificationEnumToVideoTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003091757020_AlterGenresColumnInVideoTableToGenreColumn.resx">
       <DependentUpon>202003091757020_AlterGenresColumnInVideoTableToGenreColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003091800260_AddClassificationEnumToVideoTable.resx">
+      <DependentUpon>202003091800260_AddClassificationEnumToVideoTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
