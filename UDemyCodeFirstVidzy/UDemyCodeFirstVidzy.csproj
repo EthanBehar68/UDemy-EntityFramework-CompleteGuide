@@ -92,5 +92,8 @@
       <DependentUpon>202003091800260_AddClassificationEnumToVideoTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DbScripts\ProductionDeploymentScript_1.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
