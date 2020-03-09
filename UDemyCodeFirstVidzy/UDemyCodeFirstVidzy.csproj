@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityConfiguration\GenreConfiguration.cs" />
+    <Compile Include="EntityConfiguration\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\202003091727216_AddVideoAndGenreTables.cs" />
     <Compile Include="Migrations\202003091727216_AddVideoAndGenreTables.Designer.cs">
