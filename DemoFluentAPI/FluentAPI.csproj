@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Course.cs" />
+    <Compile Include="EntitiyConfigurations\CourseConfiguration.cs" />
     <Compile Include="Migrations\202003091944393_InitialModel.cs" />
     <Compile Include="Migrations\202003091944393_InitialModel.Designer.cs">
       <DependentUpon>202003091944393_InitialModel.cs</DependentUpon>
@@ -73,5 +74,6 @@
       <DependentUpon>202003091944393_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
