@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyVidzyExercise", "UDemy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyVidzyQueriesExercise", "UDemyVidzyQueriesExercise\UDemyVidzyQueriesExercise.csproj", "{33A70FF9-ADA6-4D80-9D88-B48A46270390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyDataExercises", "Vidzy\VidzyDataExercises.csproj", "{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{33A70FF9-ADA6-4D80-9D88-B48A46270390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A70FF9-ADA6-4D80-9D88-B48A46270390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A70FF9-ADA6-4D80-9D88-B48A46270390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
