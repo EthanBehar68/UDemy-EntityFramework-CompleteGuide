@@ -9,5 +9,10 @@ namespace UDemyCodeFirstVidzy
         public string Name { get; set; }
 
         public ICollection<Video> Videos { get; set; }
+
+        public Tag()
+        {
+            Videos = new HashSet<Video>();
+        }
     }
 }

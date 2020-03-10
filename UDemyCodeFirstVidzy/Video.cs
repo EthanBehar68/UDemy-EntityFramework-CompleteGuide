@@ -24,5 +24,10 @@ namespace UDemyCodeFirstVidzy
         public ICollection<Tag> Tags { get; set; }
 
         public Classification Classification { get; set; }
+
+        public Video()
+        {
+            Tags = new HashSet<Tag>();
+        }
     }
 }

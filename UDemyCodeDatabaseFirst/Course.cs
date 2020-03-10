@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace UDemyCodeFirstDatabase
 {
@@ -12,5 +13,10 @@ namespace UDemyCodeFirstDatabase
         public float FullPrice { get; set; }
         public Author Authot { get; set; }
         public IList<Tag> Tags { get; set; }
+
+        public Course()
+        {
+            Tags = new Collection<Tag>();
+        }
     }
 }

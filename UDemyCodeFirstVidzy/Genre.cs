@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace UDemyCodeFirstVidzy
 {
@@ -8,5 +8,10 @@ namespace UDemyCodeFirstVidzy
         public byte Id { get; set; }
         public string Name { get; set; }
         public ICollection<Video> Videos { get; set; }
+
+        public Genre()
+        {
+            Videos = new Collection<Video>();
+        }
     }
 }
