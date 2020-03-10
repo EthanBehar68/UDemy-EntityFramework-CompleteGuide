@@ -19,7 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheet
 	ProjectSection(SolutionItems) = preProject
 		C:\Users\Umma\Downloads\Data Annotations Cheat Sheet.pdf = C:\Users\Umma\Downloads\Data Annotations Cheat Sheet.pdf
 		C:\Users\Umma\Downloads\Fluent API Cheat Sheet.pdf = C:\Users\Umma\Downloads\Fluent API Cheat Sheet.pdf
-		C:\Users\Umma\Downloads\LINQ Cheat Sheet.pdf = C:\Users\Umma\Downloads\LINQ Cheat Sheet.pdf
+		C:\Users\Umma\Downloads\LINQ Extension Method Cheat_Sheet.pdf = C:\Users\Umma\Downloads\LINQ Extension Method Cheat_Sheet.pdf
+		C:\Users\Umma\Downloads\LINQ Syntax Cheat Sheet.pdf = C:\Users\Umma\Downloads\LINQ Syntax Cheat Sheet.pdf
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyLinqQueries", "UDemyLinqQueries\UDemyLinqQueries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
