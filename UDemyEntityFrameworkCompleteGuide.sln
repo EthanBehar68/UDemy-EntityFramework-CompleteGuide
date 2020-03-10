@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyLinqQueries", "UDemyLinqQueries\UDemyLinqQueries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidzy", "UDemyVidzyExercise\Vidzy.csproj", "{2AEE16B3-AFD2-4C91-9751-E37310E4689C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEE16B3-AFD2-4C91-9751-E37310E4689C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEE16B3-AFD2-4C91-9751-E37310E4689C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEE16B3-AFD2-4C91-9751-E37310E4689C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEE16B3-AFD2-4C91-9751-E37310E4689C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Queries
@@ -190,6 +191,7 @@ namespace Queries
                 foreach (var course in group)
                     Console.WriteLine("\t" + course.Name);
             }
+            Console.WriteLine(); // Space Provider
 
             // Joining
             // Inner Join - when no relationship between objects
@@ -264,9 +266,10 @@ namespace Queries
 
             foreach (var c in query28)
                 Console.WriteLine(c); // QUERY IS EXECUTED HERE!
+            Console.WriteLine(); // Space Provider
 
             // Immediately Execution Query
-            
+
             // throws NotSupportedException
             //var query29 = context.Courses.Where(c => c.IsBeginnerCourse == true);
 
@@ -275,7 +278,25 @@ namespace Queries
 
             foreach (var c in query28)
                 Console.WriteLine(c); // QUERY IS EXECUTED HERE!
+            Console.WriteLine(); // Space Provider
 
+            // IQueryable
+            IQueryable<Course> query30 = context.Courses;
+            var filtered1 = query30.Where(c => c.Level == 1); // filter is part of the query
+            // Loads only filtered courses into memory! This allows you to extend queries
+
+            foreach (var c in filtered1)
+                Console.WriteLine(c.Name);
+            Console.WriteLine(); // Space Provider
+
+            // IEnumerable 
+            IEnumerable<Course> query31 = context.Courses;
+            var filtered2 = query30.Where(c => c.Level == 1); // filter is NOT part of the query
+            // Loads all courses into memory and then filters them!
+
+            foreach (var c in filtered1)
+                Console.WriteLine(c.Name);
+            Console.WriteLine(); // Space Provider
         }
     }
 }
