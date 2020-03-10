@@ -1,16 +1,17 @@
-namespace Vidzy.Migrations
-{
-    using System;
-    using System.Data.Entity.Migrations;
+using System.Data.Entity.Migrations;
+using System;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Vidzy.VidzyContext>
+namespace VidzyExercise.Migrations
+{
+
+    internal sealed class Configuration : DbMigrationsConfiguration<VidzyExercise.VidzyContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Vidzy.VidzyContext context)
+        protected override void Seed(VidzyExercise.VidzyContext context)
         {
             context.Videos.AddOrUpdate(v => v.Id, new Video
             {

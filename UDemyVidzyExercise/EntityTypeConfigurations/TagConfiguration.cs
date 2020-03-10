@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace Vidzy.EntityTypeConfigurations
+namespace VidzyExercise.EntityTypeConfigurations
 {
     public class TagConfiguration : EntityTypeConfiguration<Tag>
     {

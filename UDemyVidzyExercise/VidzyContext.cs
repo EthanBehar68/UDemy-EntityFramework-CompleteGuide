@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity;
-using Vidzy.EntityTypeConfigurations;
+using VidzyExercise.EntityTypeConfigurations;
 
 namespace VidzyExercise
 {

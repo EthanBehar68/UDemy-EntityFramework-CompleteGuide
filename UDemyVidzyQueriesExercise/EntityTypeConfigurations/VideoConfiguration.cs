@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace Vidzy.EntityTypeConfigurations
+namespace VidzyQueriesExercise.EntityTypeConfigurations
 {
     public class VideoConfiguration : EntityTypeConfiguration<Video>
     {
