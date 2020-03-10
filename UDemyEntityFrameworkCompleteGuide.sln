@@ -33,6 +33,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyModifyingDataExercises
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternQueries", "RepositoryPatternQueries\RepositoryPatternQueries.csproj", "{1A2DD0B2-1E22-42BF-B17A-56509F239002}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Certificate", "Certificate", "{822AC705-8140-4105-94C1-005EE110EA09}"
+	ProjectSection(SolutionItems) = preProject
+		EntityFrameworkInDepth-TheCompleteGuide.pdf = EntityFrameworkInDepth-TheCompleteGuide.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

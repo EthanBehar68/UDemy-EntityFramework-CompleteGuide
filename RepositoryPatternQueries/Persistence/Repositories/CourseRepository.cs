@@ -13,6 +13,7 @@ namespace RepositoryPatternQueries.Persistence.Repositories
         {
         }
 
+        // Logic isn't really top selling
         public IEnumerable<Course> GetTopSellingCourses(int count)
         {
             return PlutoContext.Courses.OrderByDescending(c => c.FullPrice).Take(count).ToList();
