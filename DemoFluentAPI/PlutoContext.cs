@@ -7,6 +7,8 @@ namespace FluentAPI
         public PlutoContext()
             : base("name=PlutoContext")
         {
+            // Explicitly turn off Lazy Loading
+            //this.Configuration.LazyLoadingEnabled = false;
         }
 
         public virtual DbSet<Author> Authors { get; set; }
