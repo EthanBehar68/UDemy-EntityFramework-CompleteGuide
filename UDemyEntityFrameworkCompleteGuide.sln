@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyCodeFirstVidzy", "UDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DemoDataAnnotations\DataAnnotations.csproj", "{415B010B-3387-41C8-8649-98E423189105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPILoadingTypes", "DemoFluentAPI\FluentAPILoadingTypes.csproj", "{0C52C418-BEC8-4C37-9C5D-574F3D901086}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPILoadingTypesUpdatingData", "DemoFluentAPI\FluentAPILoadingTypesUpdatingData.csproj", "{0C52C418-BEC8-4C37-9C5D-574F3D901086}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheets", "{0C8264A8-7765-4F25-AACF-D6E19E4EE1D7}"
 	ProjectSection(SolutionItems) = preProject
