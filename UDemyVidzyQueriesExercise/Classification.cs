@@ -1,4 +1,4 @@
-﻿namespace Vidzy
+﻿namespace VidzyQueriesExercise
 {
     public enum Classification : byte
     {

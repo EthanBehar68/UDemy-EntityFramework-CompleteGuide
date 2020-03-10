@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UDemyCodeFirstExistingDatabase
+namespace CodeFirstExistingDatabase
 {
     class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace UDemyDatabaseFirst
+namespace DatabaseFirst
 {
 
     public enum Level : byte

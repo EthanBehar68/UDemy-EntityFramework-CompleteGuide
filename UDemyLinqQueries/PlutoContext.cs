@@ -1,7 +1,7 @@
 using System.Data.Entity;
-using Queries.EntityConfigurations;
+using LinqQueries.EntityConfigurations;
 
-namespace Queries
+namespace LinqQueries
 {
     public class PlutoContext : DbContext
     {

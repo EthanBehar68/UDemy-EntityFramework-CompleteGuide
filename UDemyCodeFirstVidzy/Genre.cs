@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace UDemyCodeFirstVidzy
+namespace CodeFirstVidzy
 {
     public class Genre
     {

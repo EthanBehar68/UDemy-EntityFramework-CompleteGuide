@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
-namespace UDemyCodeFirstDatabase
+namespace CodeFirstDatabase
 {
     public class Tag
     {

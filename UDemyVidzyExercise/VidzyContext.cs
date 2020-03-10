@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using Vidzy.EntityTypeConfigurations;
 
-namespace Vidzy
+namespace VidzyExercise
 {
     public class VidzyContext : DbContext
     {

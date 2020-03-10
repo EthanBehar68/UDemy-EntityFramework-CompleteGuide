@@ -7,8 +7,8 @@
     <ProjectGuid>{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Queries</RootNamespace>
-    <AssemblyName>Queries</AssemblyName>
+    <RootNamespace>LinqQueries</RootNamespace>
+    <AssemblyName>LinqQueries</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UDemyCodeFirstVidzy.EntityConfiguration
+namespace CodeFirstVidzy.EntityConfiguration
 {
     class GenreConfiguration : EntityTypeConfiguration<Genre>
     {

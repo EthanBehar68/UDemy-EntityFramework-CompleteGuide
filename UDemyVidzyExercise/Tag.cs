@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Vidzy
+namespace VidzyExercise
 {
     public class Tag
     {

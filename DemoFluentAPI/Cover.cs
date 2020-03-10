@@ -1,4 +1,4 @@
-﻿namespace FluentAPI
+﻿namespace FluentAPILoadingTypesUpdatingData
 {
     public class Cover
     {

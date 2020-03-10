@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UDemyDatabaseFirst
+namespace DatabaseFirst
 {
     using System;
     using System.Data.Entity;
@@ -30,7 +30,7 @@ namespace UDemyDatabaseFirst
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<Video> Videos { get; set; }
     
-        public virtual int AddVideo(string name, Nullable<System.DateTime> releaseDate, string genre, Nullable<UDemyDatabaseFirst.Classification> classification)
+        public virtual int AddVideo(string name, Nullable<System.DateTime> releaseDate, string genre, Nullable<DatabaseFirst.Classification> classification)
         {
             var nameParameter = name != null ?
                 new ObjectParameter("Name", name) :
@@ -46,7 +46,7 @@ namespace UDemyDatabaseFirst
     
             var classificationParameter = classification.HasValue ?
                 new ObjectParameter("Classification", classification) :
-                new ObjectParameter("Classification", typeof(UDemyDatabaseFirst.Classification));
+                new ObjectParameter("Classification", typeof(DatabaseFirst.Classification));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("AddVideo", nameParameter, releaseDateParameter, genreParameter, classificationParameter);
         }

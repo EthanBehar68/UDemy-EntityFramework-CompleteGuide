@@ -1,18 +1,18 @@
-namespace UDemyCodeFirstVidzy.Migrations
+namespace CodeFirstVidzy.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<UDemyCodeFirstVidzy.VidzyDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstVidzy.VidzyDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(UDemyCodeFirstVidzy.VidzyDbContext context)
+        protected override void Seed(CodeFirstVidzy.VidzyDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -1,4 +1,4 @@
-namespace FluentAPI.Migrations
+namespace FluentAPILoadingTypesUpdatingData.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

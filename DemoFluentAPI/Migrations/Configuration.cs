@@ -1,15 +1,15 @@
 using System.Data.Entity.Migrations;
 
-namespace FluentAPI.Migrations
+namespace FluentAPILoadingTypesUpdatingData.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<FluentAPI.PlutoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<FluentAPILoadingTypesUpdatingData.PlutoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(FluentAPI.PlutoContext context)
+        protected override void Seed(FluentAPILoadingTypesUpdatingData.PlutoContext context)
         {
             //  This method will be called after migrating to the latest version.
 

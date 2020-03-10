@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace FluentAPI
+namespace FluentAPILoadingTypesUpdatingData
 {
     public class PlutoContext : DbContext
     {

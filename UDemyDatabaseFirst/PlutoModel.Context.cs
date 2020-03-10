@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UDemyDatabaseFirst
+namespace DatabaseFirst
 {
     using System;
     using System.Data.Entity;

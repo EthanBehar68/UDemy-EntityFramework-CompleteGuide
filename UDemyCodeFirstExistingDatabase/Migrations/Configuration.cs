@@ -1,16 +1,16 @@
 using System.Collections.ObjectModel;
 using System.Data.Entity.Migrations;
 
-namespace UDemyCodeFirstExistingDatabase.Migrations
+namespace CodeFirstExistingDatabase.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<UDemyCodeFirstExistingDatabase.PlutoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstExistingDatabase.PlutoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(UDemyCodeFirstExistingDatabase.PlutoContext context)
+        protected override void Seed(CodeFirstExistingDatabase.PlutoContext context)
         {
             //Seeding 1 Author into DB
             //context.Authors.AddOrUpdate(a => a.Name,

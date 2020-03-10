@@ -1,4 +1,4 @@
-namespace UDemyCodeFirstExistingDatabase
+namespace CodeFirstExistingDatabase
 {
     using System;
     using System.Data.Entity;

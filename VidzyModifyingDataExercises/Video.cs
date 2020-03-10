@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Vidzy
+namespace VidzyModifyingDataExercises
 {
     public class Video
     {

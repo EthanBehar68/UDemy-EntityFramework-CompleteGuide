@@ -7,8 +7,8 @@
     <ProjectGuid>{2AEE16B3-AFD2-4C91-9751-E37310E4689C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vidzy</RootNamespace>
-    <AssemblyName>Vidzy</AssemblyName>
+    <RootNamespace>VidzyExercise</RootNamespace>
+    <AssemblyName>VidzyExercise</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

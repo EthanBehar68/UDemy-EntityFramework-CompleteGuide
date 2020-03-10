@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Queries
+namespace LinqQueries
 {
     public class Author
     {

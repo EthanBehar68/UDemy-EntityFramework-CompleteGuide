@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Queries.Migrations
+namespace LinqQueries.Migrations
 {
     using System.Data.Entity.Migrations;
 

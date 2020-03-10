@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
-using UDemyCodeFirstVidzy.EntityConfiguration;
+using CodeFirstVidzy.EntityConfiguration;
 
-namespace UDemyCodeFirstVidzy
+namespace CodeFirstVidzy
 {
     public class VidzyDbContext: DbContext
     {

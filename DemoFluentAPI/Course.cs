@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FluentAPI
+namespace FluentAPILoadingTypesUpdatingData
 {
     public class Course
     {

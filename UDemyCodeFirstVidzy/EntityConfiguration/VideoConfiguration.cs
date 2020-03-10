@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace UDemyCodeFirstVidzy.EntityConfiguration
+namespace CodeFirstVidzy.EntityConfiguration
 {
     public class VideoConfiguration : EntityTypeConfiguration<Video>
     {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EC800161-32D8-45C9-BAA6-8AA38A521A93}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UDemyCodeFirstDatabase</RootNamespace>
-    <AssemblyName>UDemyCodeFirstDatabase</AssemblyName>
+    <RootNamespace>CodeFirstDatabase</RootNamespace>
+    <AssemblyName>CodeFirstDatabase</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

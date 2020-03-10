@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Data.Entity;
 
-namespace Vidzy
+namespace VidzyModifyingDataExercises
 {
     class Program
     {

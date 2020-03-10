@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace FluentAPI
+namespace FluentAPILoadingTypesUpdatingData
 {
     public class CourseConfiguration : EntityTypeConfiguration<Course>
     {

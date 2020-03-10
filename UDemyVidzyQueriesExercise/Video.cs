@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Vidzy
+namespace VidzyQueriesExercise
 {
     public class Video
     {

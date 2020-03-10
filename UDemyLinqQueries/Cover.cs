@@ -1,4 +1,4 @@
-﻿namespace Queries
+﻿namespace LinqQueries
 {
     public class Cover
     {

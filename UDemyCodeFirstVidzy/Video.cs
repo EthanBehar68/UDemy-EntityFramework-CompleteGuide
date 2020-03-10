@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UDemyCodeFirstVidzy
+namespace CodeFirstVidzy
 {
     public enum Classification : byte
     {

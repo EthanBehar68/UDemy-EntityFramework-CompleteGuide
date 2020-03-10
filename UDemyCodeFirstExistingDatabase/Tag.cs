@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace UDemyCodeFirstExistingDatabase
+namespace CodeFirstExistingDatabase
 {
     public partial class Tag
     {

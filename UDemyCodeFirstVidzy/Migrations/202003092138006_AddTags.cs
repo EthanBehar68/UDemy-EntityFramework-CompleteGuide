@@ -1,4 +1,4 @@
-namespace UDemyCodeFirstVidzy.Migrations
+namespace CodeFirstVidzy.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

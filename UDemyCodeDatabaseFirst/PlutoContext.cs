@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 
 
-namespace UDemyCodeFirstDatabase
+namespace CodeFirstDatabase
 {
     public class PlutoContext : DbContext
     {
