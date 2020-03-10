@@ -7,8 +7,8 @@
     <ProjectGuid>{1A2DD0B2-1E22-42BF-B17A-56509F239002}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Queries</RootNamespace>
-    <AssemblyName>Queries</AssemblyName>
+    <RootNamespace>RepositoryPatternQueries</RootNamespace>
+    <AssemblyName>RepositoryPatternQueries</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
