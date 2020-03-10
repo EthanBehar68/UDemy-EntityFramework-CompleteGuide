@@ -91,6 +91,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="_Extras\Section 6 Exercises.pdf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201510110310196_InitialModel.resx">
@@ -115,6 +116,7 @@
       <DependentUpon>201510110433495_AddTags.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
