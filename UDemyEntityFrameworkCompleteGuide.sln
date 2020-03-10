@@ -15,14 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DemoData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPILoadingTypesUpdatingData", "DemoFluentAPI\FluentAPILoadingTypesUpdatingData.csproj", "{0C52C418-BEC8-4C37-9C5D-574F3D901086}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheets", "{0C8264A8-7765-4F25-AACF-D6E19E4EE1D7}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\Umma\Downloads\Data Annotations Cheat Sheet.pdf = C:\Users\Umma\Downloads\Data Annotations Cheat Sheet.pdf
-		C:\Users\Umma\Downloads\Fluent API Cheat Sheet.pdf = C:\Users\Umma\Downloads\Fluent API Cheat Sheet.pdf
-		C:\Users\Umma\Downloads\LINQ Extension Method Cheat_Sheet.pdf = C:\Users\Umma\Downloads\LINQ Extension Method Cheat_Sheet.pdf
-		C:\Users\Umma\Downloads\LINQ Syntax Cheat Sheet.pdf = C:\Users\Umma\Downloads\LINQ Syntax Cheat Sheet.pdf
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyLinqQueries", "UDemyLinqQueries\UDemyLinqQueries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyVidzyExercise", "UDemyVidzyExercise\UDemyVidzyExercise.csproj", "{2AEE16B3-AFD2-4C91-9751-E37310E4689C}"
@@ -30,6 +22,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyVidzyQueriesExercise", "UDemyVidzyQueriesExercise\UDemyVidzyQueriesExercise.csproj", "{33A70FF9-ADA6-4D80-9D88-B48A46270390}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyDataExercises", "Vidzy\VidzyDataExercises.csproj", "{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheets", "{30980FB0-7C49-4CE2-905B-A3AD1F3B8A6E}"
+	ProjectSection(SolutionItems) = preProject
+		Data Annotations Cheat Sheet.pdf = Data Annotations Cheat Sheet.pdf
+		Fluent API Cheat Sheet.pdf = Fluent API Cheat Sheet.pdf
+		LINQ Extension Methods Cheat Sheet.pdf = LINQ Extension Methods Cheat Sheet.pdf
+		LINQ_Syntax Cheat Sheet.pdf = LINQ_Syntax Cheat Sheet.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
