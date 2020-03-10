@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyVidzyExercise", "UDemy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDemyVidzyQueriesExercise", "UDemyVidzyQueriesExercise\UDemyVidzyQueriesExercise.csproj", "{33A70FF9-ADA6-4D80-9D88-B48A46270390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyDataExercises", "Vidzy\VidzyDataExercises.csproj", "{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheets", "{30980FB0-7C49-4CE2-905B-A3AD1F3B8A6E}"
 	ProjectSection(SolutionItems) = preProject
 		Data Annotations Cheat Sheet.pdf = Data Annotations Cheat Sheet.pdf
@@ -30,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CheatSheets", "_CheatSheet
 		LINQ Extension Methods Cheat Sheet.pdf = LINQ Extension Methods Cheat Sheet.pdf
 		LINQ_Syntax Cheat Sheet.pdf = LINQ_Syntax Cheat Sheet.pdf
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidzyModifyingDataExercises", "VidzyModifyingDataExercises\VidzyModifyingDataExercises.csproj", "{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternQueries", "RepositoryPatternQueries\RepositoryPatternQueries.csproj", "{1A2DD0B2-1E22-42BF-B17A-56509F239002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A4E1804-F07E-442D-ABF0-6D4D2A344D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2DD0B2-1E22-42BF-B17A-56509F239002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2DD0B2-1E22-42BF-B17A-56509F239002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2DD0B2-1E22-42BF-B17A-56509F239002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2DD0B2-1E22-42BF-B17A-56509F239002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
