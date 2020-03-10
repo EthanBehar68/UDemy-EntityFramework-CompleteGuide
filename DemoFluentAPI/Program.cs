@@ -51,7 +51,7 @@ namespace FluentAPI
             context.SaveChanges();
             */
 
-            // Removing Example
+            /* Removing Example
             // PREFER LOGICAL DELETES TO PHYSICAL DELETES - example author.IsDeleted = true;
 
             // Cascade Delete Example
@@ -72,6 +72,28 @@ namespace FluentAPI
             context.Authors.Remove(author); // Delete statement for Author
 
             context.SaveChanges();
+            */
+
+            // Change Tracker
+            
+            // Add Object
+            context.Authors.Add(new Author { Name = "New Author" });
+
+            // Update Object
+            var author = context.Authors.Find(3);
+            author.Name = "Updated";
+
+            // Remove Object
+            var another = context.Authors.Find(4);
+            context.Authors.Remove(another);
+
+            var entries = context.ChangeTracker.Entries();
+
+            foreach(var entry in entries)
+            {
+                // Entry.Reload(); - Resets entry to Reload from Db
+                Console.WriteLine(entry.State); // Run in debug with breakpoint to see State in memory per entry
+            }
 
             ///
             ///
