@@ -246,8 +246,35 @@ namespace Queries
             var query26 = context.Courses.Average(c => c.FullPrice);
             var query27 = context.Courses
                 .Where(c => c.Level == 1).Count();
-            
 
+            ///
+            ///
+            /// Deferred Execution
+            /// Query Executions aren't ran on code that creates them
+            /// They are ran on the following
+            /// 1 - Iterating over query variable
+            /// 2 - Calling ToList, ToArray, ToDictionary
+            /// 3 - First, Last, Single, Count, Max, Min, Average
+
+            var query28 = context.Courses; // QUERY IS NOT EXECUTED HERE!
+
+            var filtered = courses.Where(c => c.Level == 1); // QUERY IS NOT EXECUTED HERE!
+            
+            var sorted = filtered.OrderBy(c => c.Name); // QUERY IS NOT EXECUTED HERE!
+
+            foreach (var c in query28)
+                Console.WriteLine(c); // QUERY IS EXECUTED HERE!
+
+            // Immediately Execution Query
+            
+            // throws NotSupportedException
+            //var query29 = context.Courses.Where(c => c.IsBeginnerCourse == true);
+
+            // Not best for performance b/c loads whole Db just to filter
+            var query29 = context.Courses.ToList().Where(c => c.IsBeginnerCourse == true); 
+
+            foreach (var c in query28)
+                Console.WriteLine(c); // QUERY IS EXECUTED HERE!
 
         }
     }
